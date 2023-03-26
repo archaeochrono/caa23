@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: "Itineris"
-  favicon: images/logo.png
+  title: "CAA#S12"
+  favicon: images/logo-caa23.svg
   repo-url: https://github.com/quarto-dev/quarto-web
   page-footer:
     right:
