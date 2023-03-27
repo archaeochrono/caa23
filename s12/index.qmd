@@ -16,7 +16,7 @@ format:
     reference-location: document
     footnotes-hover: true
     logo: https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png
-    footer: "<em>S12. Chronological modelling: formal methods and research software</em> <img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/www/logo-caa23.svg' style='height: 40px;vertical-align: middle;'> <https://github.com/archaeochrono/caa23>  CAA23, Amsterdam, 2023"
+    footer: "<em>S12. Chronological modelling: formal methods and research software</em> <img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/www/logo-caa23.png' style='height: 40px;vertical-align: middle;'> <https://github.com/archaeochrono/caa23>  CAA23, Amsterdam, 2023"
     margin: 0
     width: 1200
 ---
@@ -58,6 +58,8 @@ Harris matrix
 ## Seriation techniques
 
 
+
+
 ## Chronological networks
 
 
@@ -67,6 +69,12 @@ Harris matrix
 
 ## Conclusive words
 
+
+# Session organisation
+
+## Time
+
+15 min *per* paper
 
 ## Running Order
 
