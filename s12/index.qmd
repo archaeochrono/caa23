@@ -88,7 +88,10 @@ Petrie’s "sequence dating"
 
 
 ## Conclusive words
-
+* Many formalisms around
+* Many tools around
+* Need for more communication among chronology practicioners
+* Need to unify practices, standards and tools
 
 # Session organisation
 
