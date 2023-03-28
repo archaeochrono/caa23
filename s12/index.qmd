@@ -56,7 +56,9 @@ Allen's temporal relations
 <iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png"></iframe>
 ```
 
-## Temporal logics
+## Seriation techniques
+
+Petrie’s "sequence dating"
 
 ```{=html}
 <iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"></iframe>
@@ -70,6 +72,9 @@ Allen's temporal relations
 ## Seriation techniques
 
 
+```{=html}
+<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png"></iframe>
+```
 
 
 ## Chronological networks
