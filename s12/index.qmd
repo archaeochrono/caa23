@@ -69,8 +69,6 @@ Petrie’s "sequence dating"
 
 ## Seriation techniques
 
-Test
-
 ```{=html}
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png">
 ```
