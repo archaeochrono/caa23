@@ -59,7 +59,7 @@ Allen's temporal relations
 Petrie’s "sequence dating"
 
 ```{=html}
-<img src=src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
 ```
 
 
