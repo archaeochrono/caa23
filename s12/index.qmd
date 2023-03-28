@@ -34,26 +34,24 @@ We welcome papers dealing with new theoretical, methodological and research soft
 ## Bayesian modelling
 
 
-```{=html}
-<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/bayesian.png"></iframe>
-```
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/bayesian.png'>
 
 
 ## Stratigraphic modelling
 
 Harris matrix
 
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/harris.png'>
 
-```{=html}
-<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/harris.png"></iframe>
-```
 
 ## Temporal logics
 
 Allen's temporal relations
 
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png'>
+
 ```{=html}
-<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png"></iframe>
+<iframe width="1200" height="700" src=""></iframe>
 ```
 
 ## Seriation techniques

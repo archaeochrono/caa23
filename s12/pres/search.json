@@ -25,11 +25,18 @@
     "href": "index.html#temporal-logics",
     "title": "General Introduction to S12",
     "section": "Temporal logics",
-    "text": "Temporal logics\n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
+    "text": "Temporal logics\nAllen’s temporal relations"
   },
   {
     "objectID": "index.html#seriation-techniques",
     "href": "index.html#seriation-techniques",
+    "title": "General Introduction to S12",
+    "section": "Seriation techniques",
+    "text": "Seriation techniques\nPetrie’s “sequence dating”\n\n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
+  },
+  {
+    "objectID": "index.html#seriation-techniques-1",
+    "href": "index.html#seriation-techniques-1",
     "title": "General Introduction to S12",
     "section": "Seriation techniques",
     "text": "Seriation techniques"
@@ -53,7 +60,7 @@
     "href": "index.html#conclusive-words",
     "title": "General Introduction to S12",
     "section": "Conclusive words",
-    "text": "Conclusive words"
+    "text": "Conclusive words\n\nMany formalisms around\nMany tools around\nNeed for more communication among chronology practicioners\nNeed to unify practices, standards and tools"
   },
   {
     "objectID": "index.html#time",
