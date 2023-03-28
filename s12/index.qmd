@@ -50,6 +50,18 @@ Harris matrix
 
 ## Temporal logics
 
+Allen's temporal relations
+
+```{=html}
+<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png"></iframe>
+```
+
+## Temporal logics
+
+```{=html}
+<iframe width="1200" height="700" src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"></iframe>
+```
+
 
 ::: {.notes}
 "The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics." 
