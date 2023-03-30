@@ -32,14 +32,7 @@
     "href": "index.html#seriation-techniques",
     "title": "General Introduction to S12",
     "section": "Seriation techniques",
-    "text": "Seriation techniques\nPetrie’s “sequence dating”\n \n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
-  },
-  {
-    "objectID": "index.html#seriation-techniques-1",
-    "href": "index.html#seriation-techniques-1",
-    "title": "General Introduction to S12",
-    "section": "Seriation techniques",
-    "text": "Seriation techniques"
+    "text": "Seriation techniques\n\nPetrie’s “sequence dating”Other\n\n\n \n\n\n\n\n\n\n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
   },
   {
     "objectID": "index.html#chronological-networks",
@@ -74,6 +67,6 @@
     "href": "index.html#running-order",
     "title": "General Introduction to S12",
     "section": "Running Order",
-    "text": "Running Order\n\n\n\n\n\nPaper\n\n\nauthors\n\n\nhour\n\n\n\n\n\n\nGeneral introduction\n\n\nLevy et al.\n\n\n\n\n\n\nAoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption\n\n\nBrughmans et al.\n\n\n\n\n\n\nTemporal Modelling of the Roman Marble Trade\n\n\nTaelman\n\n\n\n\n\n\nRight on time: Chronological and stratigraphic modelling of the occupational surfaces at the lacustrine site of La Draga (Lake Banyoles, Spain). Bayesian analysis of C14 dates, tree-ring data and stratigraphical information\n\n\nAndreaki and Barcelo\n\n\n\n\n\n\nBeyond chronological networks: a comparison of formal models for archaeological chronology\n\n\nLevy\n\n\n\n\n\n\nBREAK HERE\n\n\n\n\n\n\n\n\nAn Alternative Method for Sequence Matching in Dendrochronology using Dynamic Time Warping\n\n\nOchocki and Bronk Ramsey\n\n\n\n\n\n\nDendrochronological networks: from time series to networks and back to spatio-temporal patterns again\n\n\nVisser\n\n\n\n\n\n\nEXTENDING THE EXTENDED MATRIX (EM) with CIDOC-CRM: A FORMAL METHOD and RESEARCH SOFTWARE for VIRTUAL RECONSTRUCTION PROCESSES and beyond\n\n\nGiovannini and Demetrescu\n\n\n\n\n\n\nConventions for Archaeological Stratigraphic and Chronological Data\n\n\nMay and Taylor\n\n\n\n\n\n\nAutomating chronology construction and archiving (FAIR)ly along the way\n\n\nBuck et al.\n\n\n\n\n\n\nChronOntology for periodisations in Entangled Africa\n\n\nSchmidle et al.\n\n\n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "text": "Running Order\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction \n    Levy et al. \n    NA \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans et al. \n    NA \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    NA \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    NA \n  \n  \n    BREAK HERE \n    NA \n    NA \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    NA \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May and Taylor \n    NA \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck et al. \n    NA \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle et al. \n    NA \n  \n  \n    Discussion \n    Levy et al. \n    NA \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]
