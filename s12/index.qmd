@@ -25,6 +25,7 @@ format:
 
 ```{r, echo=FALSE}
 library(plotly)
+library(dplyr)
 ```
 
 ::: {.notes}
@@ -97,6 +98,14 @@ Petrie’s "sequence dating"
 15 min *per* paper
 
 ## Running Order
+
+```{r}
+run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx")
+knitr::kable(run.order, "html") %>%
+  kableExtra::kable_styling(full_width = FALSE,
+                position = "center",
+                font_size = 20)
+```
 
 <table>
     <thead>
