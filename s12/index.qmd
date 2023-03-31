@@ -28,6 +28,9 @@ library(plotly)
 library(dplyr)
 library(DT)
 library(ggtern)
+library(kableExtra)
+library(knitr)
+library(FactoMineR)
 ```
 
 ## Peuquet's triad
@@ -96,18 +99,137 @@ ggtern(data = df, aes(x = where, y = when, z = what, col = sites)) +
 Peuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)
 :::
 
+## Peuquet's triad <em>extended</em>
+
+::: {.panel-tabset}
+
+### Correspondance Analysis
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+```{r}
+
+df <- data.frame(feat = c("A", "B", "C"),
+                 where = c(20, 60, 60),
+                 when = c(10, 30, 20),
+                 what = c(70, 10, 20),
+                 who = c(30, 40, 50),
+                 how = c(50, 60, 80),
+                 row.names = c("A", "B", "C"))
+
+dt <- datatable(df, 
+          rownames = FALSE,
+          width = '30%',
+          options = list(searching = FALSE,
+                         lengthChange = FALSE,
+                         paging = FALSE,
+                         scrollX = F,
+                         initComplete = JS("function(settings, json) {$(this.api().table().header()).css({'font-size' : '16px'});}"),
+                         info = FALSE,
+                         filter = "none")) %>% 
+  formatStyle("feat",
+              backgroundColor = styleEqual(c("A", "B", "C"), 
+                                           c('#FF000070', '#00800070', '#0000FF70'))
+  ) %>%
+  formatStyle(columns = c(1:6),
+              fontSize = '16px')
+dt
+```
+
+:::
+
+
+::: {.column width="60%"}
+
+```{r}
+#| fig-width: 8
+
+res.ca <- CA(df[ , c(2:6)])
+```
+
+:::
+
+::::
+
+### HC <sup>individuals</sup>
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+```{r}
+dt
+```
+
+:::
+
+
+::: {.column width="60%"}
+
+Hierachical Clustering on Individuals
+
+```{r}
+dend.h <- df[ , c(2:6)] %>%
+  scale %>% 
+  dist %>% 
+  hclust
+plot(as.dendrogram(dend.h))
+```
+
+:::
+
+::::
+
+### HC <sup>variables</sup>
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+```{r}
+dt
+```
+
+:::
+
+
+::: {.column width="60%"}
+
+Hierachical Clustering on Variables
+
+```{r}
+dend.h <- t(df[ , c(2:6)]) %>%
+  scale %>% 
+  dist %>% 
+  hclust
+plot(as.dendrogram(dend.h))
+```
+
+:::
+
+::::
+
+:::
+
+
 ## Binary Topological Relationships
+
+\
 
 <div class="row">
 
 <div class="column">
-![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-temopral-allen.jpg)
+<img src='https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-temopral-allen.jpg'height="300">
 <div class="captiontext">Temporal</div>
 </div>
 
 
 <div class="column">
-![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-rtb.jpg){height=400px}
+<img src='https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-rtb.jpg' height="300">
 <div class="captiontext">Spatial</div>
 </div>
 
@@ -141,11 +263,8 @@ Harris matrix
 
 Allen's temporal relations
 
-<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png'>
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png'>  
 
-```{=html}
-<iframe width="1200" height="700" src=""></iframe>
-```
 
 ## Seriation techniques
 
@@ -153,16 +272,14 @@ Allen's temporal relations
 
 ### Petrie’s "sequence dating"
 
-```{=html}
+
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
-```
 
 
 ### Other
 
-```{=html}
+
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png">
-```
 
 :::
 
@@ -199,7 +316,8 @@ run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx")
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
                             position = "center",
-                            font_size = 20)
+                            font_size = 20) %>%
+  row_spec(5, bold=T, hline_after = T)
 ```
 
 

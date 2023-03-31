@@ -7,11 +7,18 @@
     "text": "Peuquet’s triad\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)"
   },
   {
+    "objectID": "index.html#peuquets-triad-extended",
+    "href": "index.html#peuquets-triad-extended",
+    "title": "General Introduction to S12",
+    "section": "Peuquet’s triad extended",
+    "text": "Peuquet’s triad extended\n\nCorrespondance AnalysisHC individualsHC variables\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHierachical Clustering on Individuals\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHierachical Clustering on Variables"
+  },
+  {
     "objectID": "index.html#binary-topological-relationships",
     "href": "index.html#binary-topological-relationships",
     "title": "General Introduction to S12",
     "section": "Binary Topological Relationships",
-    "text": "Binary Topological Relationships\n\n\n\n\nSpatial\n\n\n\n\n\nTemporal\n\n\n\n\nSpatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc."
+    "text": "Binary Topological Relationships\n\n\n\n\nTemporal\n\n\n\n\n\nSpatial\n\n\n\n\nSpatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc."
   },
   {
     "objectID": "index.html#bayesian-modelling",
@@ -39,7 +46,7 @@
     "href": "index.html#seriation-techniques",
     "title": "General Introduction to S12",
     "section": "Seriation techniques",
-    "text": "Seriation techniques\n\nPetrie’s “sequence dating”Other\n\n\n \n\n\n\n\n\n\n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
+    "text": "Seriation techniques\n\nPetrie’s “sequence dating”Other\n\n\n\n\n\n\n\n\n\n\n“The archaeological research community has otherwise only brought too little attention to recent research results in temporal logics.”"
   },
   {
     "objectID": "index.html#chronological-networks",
@@ -74,6 +81,6 @@
     "href": "index.html#running-order",
     "title": "General Introduction to S12",
     "section": "Running Order",
-    "text": "Running Order\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction \n    Levy et al. \n    NA \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans et al. \n    NA \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    NA \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    NA \n  \n  \n    BREAK HERE \n    NA \n    NA \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    NA \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May and Taylor \n    NA \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck et al. \n    NA \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle et al. \n    NA \n  \n  \n    Discussion \n    Levy et al. \n    NA \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "text": "Running Order\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction \n    Levy, Huet, Thiery, Mees \n    NA \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans, Franconi, Borisova, Paulsen \n    NA \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    NA \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    NA \n  \n  \n    BREAK HERE \n    NA \n    NA \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    NA \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May, Taylor \n    NA \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck, May, Dye \n    NA \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle, Sigl, Reinke, Lammers, Lukas \n    NA \n  \n  \n    Discussion \n    Huet, Levy, Thiery, Mees \n    NA \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]
