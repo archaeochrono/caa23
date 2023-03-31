@@ -1,6 +1,6 @@
 ---
-title: "Discussing the need for a new CAA Special Interest Group on chronological modelling"
-# subtitle: "Make (re)usable the ANRJCJC Itineris data"
+title: "Discussion"
+subtitle: "Discussing the need for a new CAA Special Interest Group on chronological modelling"
 author: "Huet, Levy, Allard, Florian"
 # title-slide-attributes:
 #     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
@@ -33,7 +33,25 @@ library(knitr)
 library(FactoMineR)
 ```
 
-## CAA Special Interest Groups
+## CAA Special Interest Groups {auto-animate=true}
+
+<span vertical-align: center><img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/logo-caa.png' style='height: 50px;vertical-align: middle;'> SIG <span class="midtext"><https://caa-international.org/special-interest-groups/></span>
+
+<div class="midtext">
+<ul>
+<li>Complex Systems Simulation</li>
+<li>Computer Programs for Archaeologists</li>
+<li>Mobile GIS</li>
+<li>3D spatial analysis</li>
+<li>Scientific Scripting Languages in Archaeology</li>
+<li>Semantics and LOUD in Archaeology</li>
+<li>Archaeological Practices and Knowledge Work</li>
+<li>Computationally Modeling Water-based Movement</li>  
+</ul>
+</div>
+
+
+## CAA SIG *SSLA* and *Data Dragons*
 
 ::: {.panel-tabset}
 
@@ -43,6 +61,12 @@ Special Interest Group on Scientific Scripting Languages in Archaeology
 
 ```{=html}
 <iframe width="1000" height="500" src="https://sslarch.github.io/" title="SSLA"></iframe>
+```
+
+### Data Dragons
+
+```{=html}
+<iframe width="1000" height="500" src="https://datadragon.link/" title="Dragons"></iframe>
 ```
 
 :::
