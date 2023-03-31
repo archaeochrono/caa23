@@ -9,6 +9,8 @@
 gantt
     title CAA23, session 12
     dateFormat  YYYY-MM-DD
+    tickInterval 1day
+    excludes    weekends
     section CAA23
     CAA23                    : a0, 2023-04-03, 2023-04-06
     S12                      : a0, 2023-04-04, 1d
