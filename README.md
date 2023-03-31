@@ -4,6 +4,7 @@
 ## Session 12: Chronological modelling: formal methods and research software
 > Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees
 
+### Timeline 
 
 ```mermaid
 gantt
@@ -16,4 +17,5 @@ gantt
     S12                      : milestone, m3, 2023-04-04, 1d
 ```
 
-General Introduction to S12: https://archaeochrono.github.io/caa23/s12/pres
+* General Introduction to S12: https://archaeochrono.github.io/caa23/s12/pres
+* Discussing the need for a new CAA Special Interest Group on chronological modelling: https://archaeochrono.github.io/caa23/sig/pres
