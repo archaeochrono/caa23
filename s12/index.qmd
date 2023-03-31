@@ -313,7 +313,7 @@ Allen's temporal relations
 15 minutes *per* paper + 5 minutes Q&A
 
 ```{r}
-run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx", na.strings = "")
+run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx", na.strings = "", detectDates = F)
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
                             position = "center",

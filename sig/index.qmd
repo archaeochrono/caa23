@@ -35,6 +35,17 @@ library(FactoMineR)
 
 ## CAA Special Interest Groups
 
+::: {.panel-tabset}
+
+### SSLA
+
+Special Interest Group on Scientific Scripting Languages in Archaeology
+
+```{=html}
+<iframe width="1000" height="500" src="https://sslarch.github.io/" title="SSLA"></iframe>
+```
+
+:::
 
 
 
