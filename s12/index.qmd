@@ -1,7 +1,7 @@
 ---
 title: "General Introduction to S12"
 # subtitle: "Make (re)usable the ANRJCJC Itineris data"
-author: "Levy, Huet, Allard, Thierry"
+author: "Levy, Huet, Allard, Florian"
 # title-slide-attributes:
 #     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
 #     data-background-size: "40%"
