@@ -18,7 +18,7 @@
     "href": "index.html#binary-topological-relationships",
     "title": "General Introduction to S12",
     "section": "Binary Topological Relationships",
-    "text": "Binary Topological Relationships\n\n\n\n\nTemporal\n\n\n\n\n\nSpatial\n\n\n\n\nSpatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc."
+    "text": "Binary Topological Relationships\n\n\n\n\n\n\nTemporal\n\n\n\n\n\nSpatial\n\n\n\n\nSpatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc."
   },
   {
     "objectID": "index.html#bayesian-modelling",
@@ -67,20 +67,13 @@
     "href": "index.html#conclusive-words",
     "title": "General Introduction to S12",
     "section": "Conclusive words",
-    "text": "Conclusive words\n\nMany formalisms around\nMany tools around\nNeed for more communication among chronology practicioners\nNeed to unify practices, standards and tools"
+    "text": "Conclusive words\n\nMany\n\nformalisms around\ntools around\n\nNeed\n\nfor more communication among chronology practicioners\nto unify practices, standards and tools"
   },
   {
-    "objectID": "index.html#time",
-    "href": "index.html#time",
+    "objectID": "index.html#time-and-running-order",
+    "href": "index.html#time-and-running-order",
     "title": "General Introduction to S12",
-    "section": "Time",
-    "text": "Time\n15 min per paper"
-  },
-  {
-    "objectID": "index.html#running-order",
-    "href": "index.html#running-order",
-    "title": "General Introduction to S12",
-    "section": "Running Order",
-    "text": "Running Order\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction \n    Levy, Huet, Thiery, Mees \n    NA \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans, Franconi, Borisova, Paulsen \n    NA \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    NA \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    NA \n  \n  \n    BREAK HERE \n    NA \n    NA \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    NA \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May, Taylor \n    NA \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck, May, Dye \n    NA \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle, Sigl, Reinke, Lammers, Lukas \n    NA \n  \n  \n    Discussion \n    Huet, Levy, Thiery, Mees \n    NA \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "section": "Time and Running Order",
+    "text": "Time and Running Order\n15 minutes per paper + 5 minutes Q&A\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction to the S12 session \n    Levy, Huet, Thiery, Mees \n    0.5416667 \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans, Franconi, Borisova, Paulsen \n    0.5555556 \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    0.5694444 \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    0.5833333 \n  \n  \n    BREAK \n    NA \n    NA \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    0.5972222 \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May, Taylor \n    0.6111111 \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck, May, Dye \n    0.6250000 \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle, Sigl, Reinke, Lammers, Lukas \n    0.6388889 \n  \n  \n    Discussing the need for a new CAA Special Interest Group on chronological modelling \n    Huet, Levy, Thiery, Mees \n    0.6527778 \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]

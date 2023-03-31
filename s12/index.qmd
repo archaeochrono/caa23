@@ -249,21 +249,21 @@ We welcome papers dealing with new theoretical, methodological and research soft
 ## Bayesian modelling
 
 
-<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/bayesian.png'>
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/bayesian.png' width="800">
 
 
 ## Stratigraphic modelling
 
 Harris matrix
 
-<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/harris.png'>
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/harris.png" width="800">
 
 
 ## Temporal logics
 
 Allen's temporal relations
 
-<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png'>  
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png" width="800">  
 
 
 ## Seriation techniques
@@ -273,13 +273,13 @@ Allen's temporal relations
 ### Petrie’s "sequence dating"
 
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png" width="800"> 
 
 
 ### Other
 
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png">
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png" width="800">
 
 :::
 
@@ -289,30 +289,31 @@ Allen's temporal relations
 
 ## Chronological networks
 
-```{=html}
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png"> 
-```
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png" width="800"> 
+
 
 ## Linked Open Time Data (LOTD)
 
 
 
 ## Conclusive words
-* Many formalisms around
-* Many tools around
-* Need for more communication among chronology practicioners
-* Need to unify practices, standards and tools
 
-# Session organisation
+* Many
+  - formalisms around
+  - tools around
+    
+* Need 
+  - for more communication among chronology practicioners
+  - to unify practices, standards and tools
 
-## Time
+# Session organisation {background-color="#f3e7b3"}
 
-15 min *per* paper
+## Time and Running Order
 
-## Running Order
+15 minutes *per* paper + 5 minutes Q&A
 
 ```{r}
-run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx")
+run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx", na.strings = "")
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
                             position = "center",
