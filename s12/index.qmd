@@ -21,12 +21,104 @@ format:
     width: 1200
 ---
 
-## Forewords {background-color="#f3e7b3"}
+# Introduction {background-color="#f3e7b3"}
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(plotly)
 library(dplyr)
+library(DT)
+library(ggtern)
 ```
+
+## Peuquet's triad
+
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{r}
+
+df <- data.frame(feat = c("A", "B", "C"),
+                 where = c(20, 60, 60),
+                 when = c(10, 30, 20),
+                 what = c(70, 10, 20),
+                 row.names = c("A", "B", "C"))
+
+dt <- datatable(df, 
+          rownames = FALSE,
+          width = '20%',
+          options = list(searching = FALSE,
+                         lengthChange = FALSE,
+                         paging = FALSE,
+                         scrollX = F,
+                         initComplete = JS("function(settings, json) {$(this.api().table().header()).css({'font-size' : '20px'});}"),
+                         info = FALSE,
+                         filter = "none")) %>% 
+  formatStyle("feat",
+              backgroundColor = styleEqual(c("A", "B", "C"), 
+                                           c('#FF000070', '#00800070', '#0000FF70'))
+  ) %>%
+  formatStyle(columns = c(1, 2, 3, 4),
+              fontSize = '20px')
+dt
+```
+
+:::
+
+
+::: {.column width="60%"}
+
+```{r}
+#| fig-width: 8
+
+df <- data.frame(feat = c("A", "B", "C"),
+                 where = c(20, 60, 60),
+                 when = c(10, 30, 20),
+                 what = c(70, 10, 20),
+                 row.names = c("A", "B", "C"))
+
+sites <- rownames(df)
+
+ggtern(data = df, aes(x = where, y = when, z = what, col = sites)) + 
+  theme_bw() +
+  geom_point(alpha = 0.5, size = 17) +
+  geom_point(size = 1, color = "black") +
+  theme_showarrows() +
+  theme(legend.position="none")
+```
+
+:::
+
+::::
+
+::: {.notes}
+Peuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)
+:::
+
+## Binary Topological Relationships
+
+<div class="row">
+
+<div class="column">
+![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-temopral-allen.jpg)
+<div class="captiontext">Temporal</div>
+</div>
+
+
+<div class="column">
+![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-rtb.jpg){height=400px}
+<div class="captiontext">Spatial</div>
+</div>
+
+</div>
+
+::: {.notes}
+Spatial and temporal pairwise relationships can be model in the same way, with equivalences between 'overlaps', etc.
+:::
+
+
+# Chronological Modeling {background-color="#f3e7b3"}
 
 ::: {.notes}
 We welcome papers dealing with new theoretical, methodological and research software developments in any of the above fields, in order to promote shared practices and the discovery of new ideas and paradigms.
@@ -106,8 +198,8 @@ Allen's temporal relations
 run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx")
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
-                position = "center",
-                font_size = 20)
+                            position = "center",
+                            font_size = 20)
 ```
 
 

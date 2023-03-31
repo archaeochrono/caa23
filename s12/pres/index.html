@@ -324,6 +324,15 @@
     }
   </style>
   
+  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+  <script src="site_libs/datatables-binding-0.22/datatables.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet">
+  <script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+  <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+  <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
   <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
   <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
@@ -336,11 +345,79 @@
   <p class="author">Levy, Huet, Allard, Thierry</p>
 </section>
 
-<section id="forewords" class="slide level2" data-background-color="#f3e7b3">
-<h2>Forewords</h2>
+<section>
+<section id="introduction" class="title-slide slide level1 center" data-background-color="#f3e7b3">
+<h1>Introduction</h1>
 <div class="cell">
 
 </div>
+</section>
+<section id="peuquets-triad" class="slide level2">
+<h2>Peuquet’s triad</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="htmlwidget-5306f7615809c3ebac50" style="width:20%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5306f7615809c3ebac50">{"x":{"filter":"none","vertical":false,"data":[["A","B","C"],[20,60,60],[10,30,20],[70,10,20]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>feat<\/th>\n      <th>where<\/th>\n      <th>when<\/th>\n      <th>what<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"lengthChange":false,"paging":false,"scrollX":false,"initComplete":"function(settings, json) {$(this.api().table().header()).css({'font-size' : '20px'});}","info":false,"filter":"none","columnDefs":[{"className":"dt-right","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[0]; $(this.api().cell(row, 0).node()).css({'background-color':value == \"A\" ? \"#FF000070\" : value == \"B\" ? \"#00800070\" : value == \"C\" ? \"#0000FF70\" : null});\nvar value=data[0]; $(this.api().cell(row, 0).node()).css({'font-size':'20px'});\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'20px'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'font-size':'20px'});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-size':'20px'});\n}"}},"evals":["options.initComplete","options.rowCallback"],"jsHooks":[]}</script>
+</div>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="768"></p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Peuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="binary-topological-relationships" class="slide level2">
+<h2>Binary Topological Relationships</h2>
+<div class="row">
+<div class="column66">
+<img data-src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-rtb.jpg" height="400">
+<div class="captiontext">
+Spatial
+</div>
+</div>
+<div class="column33">
+<img data-src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-temopral-allen.jpg">
+<div class="captiontext">
+Temporal
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Spatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="chronological-modeling" class="title-slide slide level1 center" data-background-color="#f3e7b3">
+<h1>Chronological Modeling</h1>
 <aside class="notes">
 <p>We welcome papers dealing with new theoretical, methodological and research software developments in any of the above fields, in order to promote shared practices and the discovery of new ideas and paradigms.</p>
 <style type="text/css">
@@ -412,7 +489,7 @@
 <li>Need for more communication among chronology practicioners</li>
 <li>Need to unify practices, standards and tools</li>
 </ul>
-</section>
+</section></section>
 <section>
 <section id="session-organisation" class="title-slide slide level1 center">
 <h1>Session organisation</h1>

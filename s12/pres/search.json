@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html#forewords",
-    "href": "index.html#forewords",
+    "objectID": "index.html#peuquets-triad",
+    "href": "index.html#peuquets-triad",
     "title": "General Introduction to S12",
-    "section": "Forewords",
-    "text": "Forewords\n\n\n\n\nWe welcome papers dealing with new theoretical, methodological and research software developments in any of the above fields, in order to promote shared practices and the discovery of new ideas and paradigms."
+    "section": "Peuquet’s triad",
+    "text": "Peuquet’s triad\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)"
+  },
+  {
+    "objectID": "index.html#binary-topological-relationships",
+    "href": "index.html#binary-topological-relationships",
+    "title": "General Introduction to S12",
+    "section": "Binary Topological Relationships",
+    "text": "Binary Topological Relationships\n\n\n\n\nSpatial\n\n\n\n\n\nTemporal\n\n\n\n\nSpatial and temporal pairwise relationships can be model in the same way, with equivalences between ‘overlaps’, etc."
   },
   {
     "objectID": "index.html#bayesian-modelling",
