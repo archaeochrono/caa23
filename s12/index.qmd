@@ -1,7 +1,7 @@
 ---
 title: "General Introduction to S12"
 # subtitle: "Make (re)usable the ANRJCJC Itineris data"
-author: "Levy, Huet, Allard, Florian"
+author: "Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees"
 # title-slide-attributes:
 #     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
 #     data-background-size: "40%"
@@ -273,13 +273,13 @@ Allen's temporal relations
 ### Petrie’s "sequence dating"
 
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png" width="800"> 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
 
 
 ### Other
 
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png" width="800">
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-2.png">
 
 :::
 
@@ -294,7 +294,9 @@ Allen's temporal relations
 
 ## Linked Open Time Data (LOTD)
 
-
+```{=html}
+<iframe width="1000" height="500" src="https://client.perio.do/?page=backend-home&backendID=web-https%3A%2F%2Fdata.perio.do%2F" title="SSLA"></iframe>
+```
 
 ## Conclusive words
 

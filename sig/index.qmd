@@ -1,7 +1,7 @@
 ---
 title: "Discussion"
 subtitle: "Discussing the need for a new CAA Special Interest Group on chronological modelling"
-author: "Huet, Levy, Allard, Florian"
+author: "Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees"
 # title-slide-attributes:
 #     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
 #     data-background-size: "40%"
