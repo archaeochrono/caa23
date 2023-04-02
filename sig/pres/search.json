@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html#varia",
+    "href": "index.html#varia",
+    "title": "Discussion",
+    "section": "Varia",
+    "text": "Varia\n… Chalcolithic occurs before Bell Beaker …"
+  },
+  {
     "objectID": "index.html#chronological-turn",
     "href": "index.html#chronological-turn",
     "title": "Discussion",
@@ -11,7 +18,7 @@
     "href": "index.html#platforms",
     "title": "Discussion",
     "section": "Platforms",
-    "text": "Platforms\nGit, distributed version control system:  GitHub https://github.com and  GitLab https://gitlab.com\n is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)"
+    "text": "Platforms\nGit, distributed version control system:  GitHub https://github.com and  GitLab https://gitlab.com.  is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)"
   },
   {
     "objectID": "index.html#formats",
@@ -32,13 +39,13 @@
     "href": "index.html#caa-sig-ssla-and-data-dragons",
     "title": "Discussion",
     "section": "CAA SIG SSLA and Data Dragons",
-    "text": "CAA SIG SSLA and Data Dragons\n\nSSLAData Dragons\n\n\nSpecial Interest Group on Scientific Scripting Languages in Archaeology"
+    "text": "CAA SIG SSLA and Data Dragons\n\nSSLAData DragonsCollaborative network\n\n\nSpecial Interest Group on Scientific Scripting Languages in Archaeology"
   },
   {
-    "objectID": "index.html#historical-time-representation",
-    "href": "index.html#historical-time-representation",
+    "objectID": "index.html#ongoing-projects",
+    "href": "index.html#ongoing-projects",
     "title": "Discussion",
-    "section": "Historical Time Representation",
-    "text": "Historical Time Representation\n\nhttps://github.com/historical-time\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "section": "Ongoing projects",
+    "text": "Ongoing projects\nHistorical Time Representation\n\nhttps://github.com/historical-time\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]

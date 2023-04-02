@@ -21,6 +21,18 @@ format:
     width: 1200
 ---
 
+## Varia
+
+<span style="color:grey;">... Chalcolithic</span> occurs before <span style="color:grey;">Bell Beaker ...</span>
+
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-strati.jpg">
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-geology.png">
+
+<img src="https://raw.githubusercontent.com/zoometh/neonet/master/doc/img/SPDneonet.png">
+<img src="https://raw.githubusercontent.com/zoometh/neonet/master/doc/img/events_duration.png">
+
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/diffusion-neo.png'>
+
 
 
 # Introduction {background-color="#f3e7b3"}
