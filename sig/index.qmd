@@ -4,8 +4,8 @@ subtitle: "Discussing the need for a new CAA Special Interest Group on chronolog
 author: "Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees"
 title-slide-attributes:
     data-background-image: "https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-tree-splitgraph.jpg"
-    data-background-size: "40%"
-    data-background-opacity: "0.2"
+    data-background-size: "50%"
+    data-background-opacity: "0.5"
 format:
   revealjs: 
     css: https://zoometh.github.io/thomashuet/css/quarto.css
@@ -42,42 +42,25 @@ For Leibnitz, "time" groups events that follow one another, while "space" groups
 ## Chronological turn
 
 <div class="row">
-<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/hist-archaeo-romantic.png){height=350px}
-<div class="captiontext">'Monument druidique près de Gisors': Baron Taylor, 1824, <em>Voyages pittoresques et romantiques dans l'ancienne France</em></div>
+<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/hist-archaeo-romantic.png){height=450px}
+<div class="captiontext">'Monument druidique près de Gisors', 1824</div>
 </div>
 
-<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-gis.jpg){height=350px}
+<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-gis.jpg){height=450px}
 <div class="captiontext">Stack of information layer in a GIS</em></div>
 </div>
 </div>
 
 ::: {.notes}
-In the 90's, development of GIS in archaeology led to a "geographic turn"
+In the 90's, development of GIS in archaeology led to a "geographic turn" but no such a thing for the temporal dimension
 :::
+
 
 # Proposed framework
 
 ## Platforms
 
-Git, distributed version control system (GitHub and GitLab)
-
-<table>
-<tbody>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style="height: 80px; vertical-align:middle"> GitHub</td>
-    <td><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 80px; vertical-align:middle"> GitLab</td>
-  </tr>
-  <tr>
-    <td><small><https://github.com></small></td>
-    <td><small><https://gitlab.com></small></td>
-  </tr>
-</tbody>
-</table>
-
-<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style='height: 40px;vertical-align: middle;'> is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)
-
-<https://github.com/historical-time>
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/app-github-org-chronomodel.png" width="800"> 
+**Git**, distributed version control system: <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style="height: 60px; vertical-align:middle"> GitHub <span class="midtext"><https://github.com></span> and <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 60px; vertical-align:middle"> GitLab <span class="midtext"><https://gitlab.com></span>. <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style='height: 60px;vertical-align: middle;'> is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)
 
 
 ## Formats
@@ -88,29 +71,61 @@ Git, distributed version control system (GitHub and GitLab)
 
 Promoting good practices
 
-<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/c14-standardisation'>
-
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/c14-standardisation.png'>
 
 
 ### ISOS
 
-Use ISO standards: Date and time and Extended Date/Time Format (EDTF) Specification <https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en> and <https://www.loc.gov/standards/datetime/>
+Using ISO standards: Date and time and Extended Date/Time Format (EDTF) Specification <span class="midtext"><https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en>, <https://www.loc.gov/standards/datetime/></span>
 
 ```{=html}
-<iframe width="1000" height="500" src="https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en" title="SSLA"></iframe>
+<iframe width="1000" height="500" src="https://www.loc.gov/standards/datetime/"></iframe>
 ```
-
-
 
 :::
 
+::: {.notes}
+EDTF is an extension of the previously seen ISO-8601 Date format. It allows an accurate record of time events and durations whatever their fuzzyness (seasons, before, etc.)
+:::
+
+
 # Languages
 
-<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-python.png" style='height: 40px;vertical-align: middle;'> ([datetime](https://docs.python.org/3/library/datetime.html), [edtf](https://pypi.org/project/edtf/), etc.) is the 1<sup>st</sup> used worldwide and the 2<sup>nd</sup> used by archaeologists. <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-r.png" style='height: 40px;vertical-align: middle;'> is a scripting language for data science, is the 1<sup>st</sup> used worldwide but only the 18<sup>th</sup> worldwide
-[Tiobe index 2022](https://www.tiobe.com/tiobe-index/) + [Batist and Roe, 2022](https://youtu.be/tUhHhzGSgbk?t=7499)</small>
+Use of scripting languages
+
+* <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-python.png" style='height: 60px;vertical-align: middle;'> is the 1<sup>st</sup> used worldwide and the 2<sup>nd</sup> used by archaeologists. 
+
+* <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-r.png" style='height: 60px;vertical-align: middle;'> is a scripting language for data science, is the 1<sup>st</sup> used worldwide but only the 18<sup>th</sup> worldwide
+
+
+```{.python}
+from edtf import parse_edtf
+from datetime import timedelta
+
+def interval_intersection(interval1, interval2):
+    start1, end1 = interval1.split("/")
+    start2, end2 = interval2.split("/")
+    dt_start1 = parse_edtf(start1)
+    dt_end1 = parse_edtf(end1)
+    dt_start2 = parse_edtf(start2)
+    dt_end2 = parse_edtf(end2)
+    # Determine the intersection of the intervals
+    intersection_start = max(dt_start1, dt_start2)
+    intersection_end = min(dt_end1, dt_end2)
+    # If the intersection is not empty, return the intersection interval
+    if intersection_end > intersection_start:
+        return f"{intersection_start.isoformat()}/{intersection_end.isoformat()}"
+    else:
+        return None
+      
+hammurabi = "-1792/-1740" # 1752
+neferhotep1 = "-1747/-1736"
+intersection = interval_intersection(hammurabi, neferhotep1)
+print(f"The intersection of {hammurabi} and {neferhotep1} is {intersection}")
+```
 
 ```{python}
-#| echo: true
+#| echo: false
 
 from edtf import parse_edtf
 from datetime import timedelta
@@ -137,6 +152,9 @@ intersection = interval_intersection(hammurabi, neferhotep1)
 print(f"The intersection of {hammurabi} and {neferhotep1} is {intersection}")
 ```
 
+\
+
+# CAA State of the art
 
 
 ## CAA Special Interest Groups {auto-animate=true}
@@ -175,7 +193,25 @@ print(f"The intersection of {hammurabi} and {neferhotep1} is {intersection}")
 <iframe width="1000" height="500" src="https://datadragon.link/" title="Dragons"></iframe>
 ```
 
+
+### Collaborative network
+
+<here diagram>
+
+
+
 :::
 
+## Ongoing projects
+
+Historical Time Representation
+
+<center>
+
+<span class="midtext"><https://github.com/historical-time></span>
+
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/app-github-org-chronomodel.png" width="1000"> 
+
+</center>
 
 

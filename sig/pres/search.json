@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "index.html#chronological-turn",
+    "href": "index.html#chronological-turn",
+    "title": "Discussion",
+    "section": "Chronological turn",
+    "text": "Chronological turn\n\n\n\n\n‘Monument druidique près de Gisors’, 1824\n\n\n\n\n\nStack of information layer in a GIS\n\n\n\n\nIn the 90’s, development of GIS in archaeology led to a “geographic turn” but no such a thing for the temporal dimension"
+  },
+  {
+    "objectID": "index.html#platforms",
+    "href": "index.html#platforms",
+    "title": "Discussion",
+    "section": "Platforms",
+    "text": "Platforms\nGit, distributed version control system:  GitHub https://github.com and  GitLab https://gitlab.com\n is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)"
+  },
+  {
+    "objectID": "index.html#formats",
+    "href": "index.html#formats",
+    "title": "Discussion",
+    "section": "Formats",
+    "text": "Formats\n\nStandardisationISOS\n\n\nPromoting good practices\n\n\n\nUsing ISO standards: Date and time and Extended Date/Time Format (EDTF) Specification https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en, https://www.loc.gov/standards/datetime/\n\n\n\n\n\nEDTF is an extension of the previously seen ISO-8601 Date format. It allows an accurate record of time events and durations whatever their fuzzyness (seasons, before, etc.)"
+  },
+  {
     "objectID": "index.html#caa-special-interest-groups",
     "href": "index.html#caa-special-interest-groups",
     "title": "Discussion",
@@ -11,6 +32,13 @@
     "href": "index.html#caa-sig-ssla-and-data-dragons",
     "title": "Discussion",
     "section": "CAA SIG SSLA and Data Dragons",
-    "text": "CAA SIG SSLA and Data Dragons\n\nSSLAData Dragons\n\n\nSpecial Interest Group on Scientific Scripting Languages in Archaeology\n\n\n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "text": "CAA SIG SSLA and Data Dragons\n\nSSLAData Dragons\n\n\nSpecial Interest Group on Scientific Scripting Languages in Archaeology"
+  },
+  {
+    "objectID": "index.html#historical-time-representation",
+    "href": "index.html#historical-time-representation",
+    "title": "Discussion",
+    "section": "Historical Time Representation",
+    "text": "Historical Time Representation\n\nhttps://github.com/historical-time\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]
