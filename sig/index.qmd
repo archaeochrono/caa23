@@ -59,7 +59,7 @@ In the 90's, development of GIS in archaeology led to a "geographic turn"
 
 ## Platforms
 
-GitHub and GitLab
+Git, distributed version control system (GitHub and GitLab)
 
 <table>
 <tbody>
@@ -68,8 +68,8 @@ GitHub and GitLab
     <td><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 80px; vertical-align:middle"> GitLab</td>
   </tr>
   <tr>
-    <td><small><https://github.com/ANR-Itineris></small></td>
-    <td><small><https://gitlab.huma-num.fr/thuet/itineris></small></td>
+    <td><small><https://github.com></small></td>
+    <td><small><https://gitlab.com></small></td>
   </tr>
 </tbody>
 </table>
@@ -82,11 +82,27 @@ GitHub and GitLab
 
 ## Formats
 
-Extended Date/Time Format (EDTF) Specification
+::: {.panel-tabset}
+
+### Standardisation
+
+Promoting good practices
+
+<img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/c14-standardisation'>
+
+
+
+### ISOS
+
+Use ISO standards: Date and time and Extended Date/Time Format (EDTF) Specification <https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en> and <https://www.loc.gov/standards/datetime/>
 
 ```{=html}
-<iframe width="1000" height="500" src="https://www.loc.gov/standards/datetime/" title="SSLA"></iframe>
+<iframe width="1000" height="500" src="https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en" title="SSLA"></iframe>
 ```
+
+
+
+:::
 
 # Languages
 
