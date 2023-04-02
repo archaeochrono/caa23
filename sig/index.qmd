@@ -2,10 +2,10 @@
 title: "Discussion"
 subtitle: "Discussing the need for a new CAA Special Interest Group on chronological modelling"
 author: "Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees"
-# title-slide-attributes:
-#     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
-#     data-background-size: "40%"
-#     data-background-opacity: "0.2"
+title-slide-attributes:
+    data-background-image: "https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-tree-splitgraph.jpg"
+    data-background-size: "40%"
+    data-background-opacity: "0.2"
 format:
   revealjs: 
     css: https://zoometh.github.io/thomashuet/css/quarto.css
@@ -21,6 +21,8 @@ format:
     width: 1200
 ---
 
+
+
 # Introduction {background-color="#f3e7b3"}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -32,6 +34,94 @@ library(kableExtra)
 library(knitr)
 library(FactoMineR)
 ```
+
+::: {.notes}
+For Leibnitz, "time" groups events that follow one another, while "space" groups objects that coexist.
+:::
+
+## Chronological turn
+
+<div class="row">
+<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/hist-archaeo-romantic.png){height=350px}
+<div class="captiontext">'Monument druidique près de Gisors': Baron Taylor, 1824, <em>Voyages pittoresques et romantiques dans l'ancienne France</em></div>
+</div>
+
+<div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-gis.jpg){height=350px}
+<div class="captiontext">Stack of information layer in a GIS</em></div>
+</div>
+</div>
+
+::: {.notes}
+In the 90's, development of GIS in archaeology led to a "geographic turn"
+:::
+
+# Proposed framework
+
+## Platforms
+
+GitHub and GitLab
+
+<table>
+<tbody>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style="height: 80px; vertical-align:middle"> GitHub</td>
+    <td><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 80px; vertical-align:middle"> GitLab</td>
+  </tr>
+  <tr>
+    <td><small><https://github.com/ANR-Itineris></small></td>
+    <td><small><https://gitlab.huma-num.fr/thuet/itineris></small></td>
+  </tr>
+</tbody>
+</table>
+
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style='height: 40px;vertical-align: middle;'> is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)
+
+<https://github.com/historical-time>
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/app-github-org-chronomodel.png" width="800"> 
+
+
+## Formats
+
+Extended Date/Time Format (EDTF) Specification
+
+```{=html}
+<iframe width="1000" height="500" src="https://www.loc.gov/standards/datetime/" title="SSLA"></iframe>
+```
+
+# Languages
+
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-python.png" style='height: 40px;vertical-align: middle;'> ([datetime](https://docs.python.org/3/library/datetime.html), [edtf](https://pypi.org/project/edtf/), etc.) is the 1<sup>st</sup> used worldwide and the 2<sup>nd</sup> used by archaeologists. <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-r.png" style='height: 40px;vertical-align: middle;'> is a scripting language for data science, is the 1<sup>st</sup> used worldwide but only the 18<sup>th</sup> worldwide
+[Tiobe index 2022](https://www.tiobe.com/tiobe-index/) + [Batist and Roe, 2022](https://youtu.be/tUhHhzGSgbk?t=7499)</small>
+
+```{python}
+#| echo: true
+
+from edtf import parse_edtf
+from datetime import timedelta
+
+def interval_intersection(interval1, interval2):
+    start1, end1 = interval1.split("/")
+    start2, end2 = interval2.split("/")
+    dt_start1 = parse_edtf(start1)
+    dt_end1 = parse_edtf(end1)
+    dt_start2 = parse_edtf(start2)
+    dt_end2 = parse_edtf(end2)
+    # Determine the intersection of the intervals
+    intersection_start = max(dt_start1, dt_start2)
+    intersection_end = min(dt_end1, dt_end2)
+    # If the intersection is not empty, return the intersection interval
+    if intersection_end > intersection_start:
+        return f"{intersection_start.isoformat()}/{intersection_end.isoformat()}"
+    else:
+        return None
+      
+hammurabi = "-1792/-1740" # 1752
+neferhotep1 = "-1747/-1736"
+intersection = interval_intersection(hammurabi, neferhotep1)
+print(f"The intersection of {hammurabi} and {neferhotep1} is {intersection}")
+```
+
+
 
 ## CAA Special Interest Groups {auto-animate=true}
 
@@ -57,7 +147,7 @@ library(FactoMineR)
 
 ### SSLA
 
-Special Interest Group on Scientific Scripting Languages in Archaeology
+<span class="midtext">Special Interest Group on Scientific Scripting Languages in Archaeology</span>
 
 ```{=html}
 <iframe width="1000" height="500" src="https://sslarch.github.io/" title="SSLA"></iframe>

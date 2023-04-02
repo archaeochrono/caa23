@@ -96,7 +96,7 @@ ggtern(data = df, aes(x = where, y = when, z = what, col = sites)) +
 ::::
 
 ::: {.notes}
-Peuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)
+Peuquet proposes a framework for modelling historical phenomena by describing them in three dimensions: thematic (what), geographical (where), and chronological (when). Whenever one of these dimensions changes, the historical phenomenon (or object) changes. Changes in phenomena can therefore be measured through the change in each of their dimensions. For example, a "revolution" (what) that takes place in the same place (where) but two centuries away (when) can be compared with two "revolutions" occuring at the same time in two different countries.
 :::
 
 ## Peuquet's triad <em>extended</em>
