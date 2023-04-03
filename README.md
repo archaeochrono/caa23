@@ -5,8 +5,9 @@
 
 ```mermaid
 flowchart LR
-    A --> B
+    A[E4 Period] --P4 has timespan-> B[E52 Time-Span];
 ```
+
 
 ## Session 12: Chronological modelling: formal methods and research software
 > Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees
