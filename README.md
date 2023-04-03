@@ -6,7 +6,7 @@
 ```mermaid
 flowchart LR
     A(E4 Period) --P4 has timespan--> B(E52 Time-Span);
-    B --P170 defines time (time is defined by)--> C(E61 Time Primitive);
+    B --P170 defines time--> C(E61 Time Primitive);
 ```
 
 
