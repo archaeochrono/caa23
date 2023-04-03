@@ -15,7 +15,7 @@ Instance example
 ```mermaid
 flowchart LR
     A(Pre-Roman republic) --P4 has timespan--> B(E52 Time-Span);
-    B --P170 defines time--> C(-7XX/-509);
+    B --P170 defines time--> C("-7XX/-509");
 ```
 
 
