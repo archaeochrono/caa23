@@ -4,17 +4,16 @@
 ## CIDOC-CRM
 
 Model
-
 ```mermaid
 flowchart LR
     A(E4 Period) --P4 has timespan--> B(E52 Time-Span);
     B --P170 defines time--> C(E61 Time Primitive);
 ```
 
-Instance example
+Instancied example
 ```mermaid
 flowchart LR
-    A(Pre-Roman republic) --P4 has timespan--> B(E52 Time-Span);
+    A(Pre-Roman republic) --P4 has timespan--> B("???");
     B --P170 defines time--> C("-7XX/-509");
 ```
 
