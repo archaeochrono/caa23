@@ -289,14 +289,22 @@ Allen's temporal relations
 
 ## Chronological networks
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png" width="800"> 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png" width="800">
 
 
-## Linked Open Time Data (LOTD)
+## Linked Open Time
 
-```{=html}
-<iframe width="1000" height="500" src="https://client.perio.do/?page=backend-home&backendID=web-https%3A%2F%2Fdata.perio.do%2F" title="SSLA"></iframe>
-```
+Space-Time-Gazetteers - PeriodO (Rabinowitz / Shaw)
+
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/main/s12/images/PeriodO_Neolithic.png" width="800">
+
+
+## Linked Open Time
+
+Space-Time-Gazetteers - ChronOntology (DAI / i3mainz)
+
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/main/s12/images/ChronOntology_Neolithic.png" width="800">
+
 
 ## Conclusive words
 
