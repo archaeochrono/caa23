@@ -4,7 +4,7 @@
     "href": "index.html#peuquets-triad",
     "title": "General Introduction to S12",
     "section": "Peuquet’s triad",
-    "text": "Peuquet’s triad\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeuquet proposes a modeling of phenomena in 3 dimensions: thematic (what), geographical (where), chronological (when)"
+    "text": "Peuquet’s triad\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeuquet proposes a framework for modelling historical phenomena by describing them in three dimensions: thematic (what), geographical (where), and chronological (when). Whenever one of these dimensions changes, the historical phenomenon (or object) changes. Changes in phenomena can therefore be measured through the change in each of their dimensions. For example, a “revolution” (what) that takes place in the same place (where) but two centuries away (when) can be compared with two “revolutions” occuring at the same time in two different countries."
   },
   {
     "objectID": "index.html#peuquets-triad-extended",
@@ -56,11 +56,25 @@
     "text": "Chronological networks"
   },
   {
-    "objectID": "index.html#linked-open-time-data-lotd",
-    "href": "index.html#linked-open-time-data-lotd",
+    "objectID": "index.html#linked-open-time-data",
+    "href": "index.html#linked-open-time-data",
     "title": "General Introduction to S12",
-    "section": "Linked Open Time Data (LOTD)",
-    "text": "Linked Open Time Data (LOTD)"
+    "section": "Linked Open Time Data",
+    "text": "Linked Open Time Data\nSpace-Time-Gazetteers - PeriodO (Rabinowitz / Shaw)"
+  },
+  {
+    "objectID": "index.html#linked-open-time-data-1",
+    "href": "index.html#linked-open-time-data-1",
+    "title": "General Introduction to S12",
+    "section": "Linked Open Time Data",
+    "text": "Linked Open Time Data\nSpace-Time-Gazetteers - ChronOntology (DAI / i3mainz)"
+  },
+  {
+    "objectID": "index.html#linked-open-time-tools",
+    "href": "index.html#linked-open-time-tools",
+    "title": "General Introduction to S12",
+    "section": "Linked Open Time Tools",
+    "text": "Linked Open Time Tools\nResearch Software for Reproducible Research"
   },
   {
     "objectID": "index.html#conclusive-words",
