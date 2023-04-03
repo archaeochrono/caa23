@@ -1,6 +1,15 @@
 # CAA23
 > https://2023.caaconference.org/
 
+## CIDOC-CRM
+
+```mermaid
+flowchart LR
+    A[E4 Period] --P4 has timespan-> B[E52 Time-Span];
+    B --P170 defines time (time is defined by)--> c[E61 Time Primitive];
+    classDef eamenaRpkg fill:#e3c071;
+```
+
 ## Session 12: Chronological modelling: formal methods and research software
 > Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees
 

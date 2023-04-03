@@ -55,7 +55,7 @@ For Leibnitz, "time" groups events that follow one another, while "space" groups
 
 <div class="row">
 <div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/hist-archaeo-romantic.png){height=450px}
-<div class="captiontext">'Monument druidique près de Gisors', 1824</div>
+<div class="captiontext">'Monument druidique près de Gisors' 1824</div>
 </div>
 
 <div class="column">![](https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/mod-spatial-gis.jpg){height=450px}
@@ -64,11 +64,28 @@ For Leibnitz, "time" groups events that follow one another, while "space" groups
 </div>
 
 ::: {.notes}
-In the 90's, development of GIS in archaeology led to a "geographic turn" but no such a thing for the temporal dimension
+In the 90's, development of GIS in archaeology led to a "geographic turn" but **no such a thing for the temporal dimension**
 :::
 
-
 # Proposed framework
+
+* Asynchronous
+
+* Distributed
+
+* Project-based
+
+
+::: {.notes}
+Asynchronous, project-based and distributed work
+:::
+
+## Data papers
+
+::: {.notes}
+Help in publishing data papers to go FAIR
+:::
+
 
 ## Platforms
 
@@ -81,7 +98,7 @@ In the 90's, development of GIS in archaeology led to a "geographic turn" but no
 
 ### Standardisation
 
-Promoting good practices
+Use of CIDOC-CRM, promoting good practices
 
 <img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/c14-standardisation.png'>
 
