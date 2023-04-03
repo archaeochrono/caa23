@@ -5,7 +5,7 @@
 
 ```mermaid
 flowchart LR
-    A(E4 Period) --[P4 has timespan]--> B(E52 Time-Span);
+    A(E4 Period) --P4 has timespan--> B(E52 Time Span);
 ```
 
 
