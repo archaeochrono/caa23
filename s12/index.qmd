@@ -349,8 +349,7 @@ run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx", na.strings = "", de
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
                             position = "center",
-                            font_size = 20) %>%
-  row_spec(5, bold=T, hline_after = T)
+                            font_size = 20)
 ```
 
 

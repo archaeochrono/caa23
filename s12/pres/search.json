@@ -32,7 +32,7 @@
     "href": "index.html#stratigraphic-modelling",
     "title": "General Introduction to S12",
     "section": "Stratigraphic modelling",
-    "text": "Stratigraphic modelling\nHarris matrix"
+    "text": "Stratigraphic modelling\nHarris matrix: Directed Acyclic Graphs, Partial Order"
   },
   {
     "objectID": "index.html#temporal-logics",
@@ -56,11 +56,11 @@
     "text": "Chronological networks"
   },
   {
-    "objectID": "index.html#lod-space-time-gazetteers",
-    "href": "index.html#lod-space-time-gazetteers",
+    "objectID": "index.html#linked-open-data-space-time-gazetteers",
+    "href": "index.html#linked-open-data-space-time-gazetteers",
     "title": "General Introduction to S12",
-    "section": "LOD Space-Time-Gazetteers",
-    "text": "LOD Space-Time-Gazetteers\nLinked Open Data Space-Time-Gazetteers\n\nPeriodOChronOntology\n\n\n\n\n\n\n\n\n\n\nPeriodO: Rabinowitz / Shaw ChronOntology DAI / i3mainz"
+    "section": "Linked Open Data Space-Time-Gazetteers",
+    "text": "Linked Open Data Space-Time-Gazetteers\n\nPeriodOChronOntology\n\n\n\n\n\n\n\n\n\n\nPeriodO: Rabinowitz / Shaw ChronOntology DAI / i3mainz"
   },
   {
     "objectID": "index.html#linked-open-time-tools",
@@ -81,6 +81,6 @@
     "href": "index.html#time-and-running-order",
     "title": "General Introduction to S12",
     "section": "Time and Running Order",
-    "text": "Time and Running Order\n15 minutes per paper + 5 minutes Q&A\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction to the S12 session \n    Levy, Huet, Thiery, Mees \n    13:00 \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans, Franconi, Borisova, Paulsen \n    13:20 \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    13:40 \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    14:00 \n  \n  \n    BREAK \n    - \n    - \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    14:20 \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May, Taylor \n    14:40 \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Buck, May, Dye \n    15:00 \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle, Sigl, Reinke, Lammers, Lukas \n    15:20 \n  \n  \n    Discussing the need for a new CAA Special Interest Group on chronological modelling \n    Huet, Levy, Thiery, Mees \n    15:40 \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
+    "text": "Time and Running Order\n15 minutes per paper + 5 minutes Q&A\n\n\n\n\n \n  \n    Paper \n    authors \n    hour \n  \n \n\n  \n    General introduction to the S12 session \n    Levy, Huet, Thiery, Mees \n    13:00 \n  \n  \n    Aoristic temporal study of heterogeneous amphora data in Roman Germania reveals centuries-long change in regional patterns of production and consumption \n    Brughmans, Franconi, Borisova, Paulsen \n    13:20 \n  \n  \n    Temporal Modelling of the Roman Marble Trade \n    Taelman \n    13:40 \n  \n  \n    Beyond chronological networks: a comparison of formal models for archaeological chronology \n    Levy \n    14:00 \n  \n  \n    Dendrochronological networks: from time series to networks and back to spatio-temporal patterns again \n    Visser \n    14:20 \n  \n  \n    Conventions for Archaeological Stratigraphic and Chronological Data \n    May, Taylor \n    14:40 \n  \n  \n    Automating chronology construction and archiving (FAIR)ly along the way \n    Moody, May, Dye, Buck \n    15:00 \n  \n  \n    ChronOntology for periodisations in Entangled Africa \n    Schmidle, Sigl, Reinke, Lammers, Lukas \n    15:20 \n  \n  \n    Discussing the need for a new CAA Special Interest Group on chronological modelling \n    Huet, Levy, Thiery, Mees \n    15:40 \n  \n\n\n\n\n\n\n\n\nS12. Chronological modelling: formal methods and research software  https://github.com/archaeochrono/caa23 CAA23, Amsterdam, 2023"
   }
 ]
