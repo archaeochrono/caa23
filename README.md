@@ -3,6 +3,13 @@
 
 ## CIDOC-CRM
 
+XXX
+```mermaid
+flowchart LR
+    A("-7XX/-509") --P170 defines time--> B(E52 Time-Span);
+    B --P1 is identified by-->C(Pre-Roman republic);
+```
+
 Model
 ```mermaid
 flowchart LR

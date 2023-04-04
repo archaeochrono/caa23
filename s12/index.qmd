@@ -292,18 +292,27 @@ Allen's temporal relations
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png" width="800">
 
 
-## Linked Open Time Data
+## LOD Space-Time-Gazetteers
 
-Space-Time-Gazetteers - PeriodO (Rabinowitz / Shaw)
+Linked Open Data Space-Time-Gazetteers
+
+::: {.panel-tabset}
+
+### PeriodO
 
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/main/s12/images/PeriodO_Neolithic.png" width="800">
 
-
-## Linked Open Time Data
-
-Space-Time-Gazetteers - ChronOntology (DAI / i3mainz)
+### ChronOntology
 
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/main/s12/images/ChronOntology_Neolithic.png" width="800">
+
+:::
+
+
+::: {.notes}
+PeriodO: Rabinowitz / Shaw
+ChronOntology DAI / i3mainz
+:::
 
 
 ## Linked Open Time Tools

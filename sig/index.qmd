@@ -89,7 +89,13 @@ Help in publishing data papers to go FAIR
 
 ## Platforms
 
-**Git**, distributed version control system: <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style="height: 60px; vertical-align:middle"> GitHub <span class="midtext"><https://github.com></span> and <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 60px; vertical-align:middle"> GitLab <span class="midtext"><https://gitlab.com></span>. <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style='height: 60px;vertical-align: middle;'> is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)
+**Git**, distributed version control system: 
+
+* <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style="height: 60px; vertical-align:middle"> GitHub <span class="midtext"><https://github.com></span>
+
+* <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-gitlab.png" style="height: 60px; vertical-align:middle"> GitLab <span class="midtext"><https://gitlab.com></span>
+/
+<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-github.png" style='height: 60px;vertical-align: middle;'> is the 🔝 popular web-platform for source code management and software development (with over 128 million public repositories)
 
 
 ## Formats
@@ -103,12 +109,20 @@ Use of CIDOC-CRM, promoting good practices
 <img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/c14-standardisation.png'>
 
 
-### ISOS
+### ISO<sub>S</sub>
 
-Using ISO standards: Date and time and Extended Date/Time Format (EDTF) Specification <span class="midtext"><https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:ed-1:v1:en>, <https://www.loc.gov/standards/datetime/></span>
+Extended Date/Time Format (EDTF) Specification <span class="midtext"> ISO 8601-2019 <https://www.loc.gov/standards/datetime/></span>
 
 ```{=html}
 <iframe width="1000" height="500" src="https://www.loc.gov/standards/datetime/"></iframe>
+```
+
+### CIDOC-CRM
+
+```mermaids
+flowchart LR
+    A("-7XX/-509") --P170 defines time--> B(E52 Time-Span);
+    B --P1 is identified by-->C(Pre-Roman republic);
 ```
 
 :::

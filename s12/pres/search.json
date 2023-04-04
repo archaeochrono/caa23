@@ -56,18 +56,11 @@
     "text": "Chronological networks"
   },
   {
-    "objectID": "index.html#linked-open-time-data",
-    "href": "index.html#linked-open-time-data",
+    "objectID": "index.html#lod-space-time-gazetteers",
+    "href": "index.html#lod-space-time-gazetteers",
     "title": "General Introduction to S12",
-    "section": "Linked Open Time Data",
-    "text": "Linked Open Time Data\nSpace-Time-Gazetteers - PeriodO (Rabinowitz / Shaw)"
-  },
-  {
-    "objectID": "index.html#linked-open-time-data-1",
-    "href": "index.html#linked-open-time-data-1",
-    "title": "General Introduction to S12",
-    "section": "Linked Open Time Data",
-    "text": "Linked Open Time Data\nSpace-Time-Gazetteers - ChronOntology (DAI / i3mainz)"
+    "section": "LOD Space-Time-Gazetteers",
+    "text": "LOD Space-Time-Gazetteers\nLinked Open Time Data Space-Time-Gazetteers\n\nPeriodOChronOntology\n\n\n\n\n\n\n\n\n\n\nPeriodO: Rabinowitz / Shaw ChronOntology DAI / i3mainz"
   },
   {
     "objectID": "index.html#linked-open-time-tools",
