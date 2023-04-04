@@ -1,11 +1,12 @@
 ---
-title: "General Introduction to S12"
+title: "S12. Chronological modelling: formal methods and research software"
+subtitle: "General Introduction"
 # subtitle: "Make (re)usable the ANRJCJC Itineris data"
 author: "Eythan Levy, Thomas Huet, Florian Thiery, Allard W. Mees"
-# title-slide-attributes:
-#     data-background-image: "https://raw.githubusercontent.com/ANR-Itineris/itineris/master/www/logo.png"
-#     data-background-size: "40%"
-#     data-background-opacity: "0.2"
+title-slide-attributes:
+    data-background-image: "https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/logo-s12.png"
+    data-background-size: "40%"
+    data-background-opacity: "0.2"
 format:
   revealjs: 
     css: https://zoometh.github.io/thomashuet/css/quarto.css
