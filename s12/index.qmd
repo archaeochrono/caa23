@@ -352,4 +352,13 @@ knitr::kable(run.order, "html") %>%
                             font_size = 20)
 ```
 
-
+::: {.notes}
+Brughmans et al: Aoristic methods to model trade in Germania during Roman times
+Taelman: Temporal uncertainty Management andvizualisation for  Roman marbles' provenance in Mediterranean 
+Levy: Comparison of the chronological networks model used in ChronoLog with other chronological formal models 
+Visser: Dendrochronological networks and spatio-temporal patterns
+May, Taylor: Conventions for Archaeological Stratigraphic and Chronological Data
+Moody et al.: Presentation of a prototype software for FAIRly archiving the process of chronology construction
+Schmidle et al.: ChronOntology to create and label cultural periods in Africa
+Huet at al.: Discussing the need and framework for a new CAA SIG on Chronological modelling
+:::
