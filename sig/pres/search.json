@@ -32,7 +32,7 @@
     "href": "index.html#formats",
     "title": "Discussion",
     "section": "Formats",
-    "text": "Formats\n\nStandardisationISOSCIDOC-CRM\n\n\nUse of CIDOC-CRM, promoting good practices\n\n\n\nExtended Date/Time Format (EDTF) Specification  ISO 8601-2019 https://www.loc.gov/standards/datetime/\n\n\n\nflowchart LR\n    A(\"-7XX/-509\") --P170 defines time--> B(E52 Time-Span);\n    B --P1 is identified by-->C(Pre-Roman republic);\n\n\n\n\nEDTF is an extension of the previously seen ISO-8601 Date format. It allows an accurate record of time events and durations whatever their fuzzyness (seasons, before, etc.)"
+    "text": "Formats\n\nStandardisationISOSCIDOC-CRM\n\n\nUse of CIDOC-CRM, promoting good practices\n\n\n\nExtended Date/Time Format (EDTF) Specification  ISO 8601-2019 https://www.loc.gov/standards/datetime/\n\n\n\n\n\n\n\nflowchart LR\n    A(\"-7XX/-509\") --P170 defines time--> B(E52 Time-Span);\n    B --P1 is identified by-->C(Pre-Roman republic);\n\n\n\n\n\n\n\n\n\n\n\n\nEDTF is an extension of the previously seen ISO-8601 Date format. It allows an accurate record of time events and durations whatever their fuzzyness (seasons, before, etc.)"
   },
   {
     "objectID": "index.html#caa-special-interest-groups",

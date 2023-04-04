@@ -261,10 +261,17 @@ Harris matrix
 
 ## Temporal logics
 
-Allen's temporal relations
+::: {.panel-tabset}
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png" width="800">  
+### Allen's temporal relations
 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png" width="800"> 
+
+### Other
+
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
+
+:::
 
 ## Seriation techniques
 
@@ -272,8 +279,9 @@ Allen's temporal relations
 
 ### Petrie’s "sequence dating"
 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/seriation-petrie.png" width="800">  
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/temporal-logics-2.png"> 
+
 
 
 ### Other
