@@ -316,8 +316,8 @@ Harris matrix: Directed Acyclic Graphs, Partial Order
 
 
 ::: {.notes}
-PeriodO: Rabinowitz / Shaw
-ChronOntology DAI / i3mainz
+PeriodO: PeriodO is more focused on "quotes" of time periodes in literature (Rabinowitz / Shaw)
+ChronOntology: ChronOntoogy more on the modelling of space and a "relative chronology" and semantic alignment (DAI / i3mainz)
 :::
 
 
@@ -349,7 +349,8 @@ run.order <- openxlsx::read.xlsx("papers_ruling_order.xlsx", na.strings = "", de
 knitr::kable(run.order, "html") %>%
   kableExtra::kable_styling(full_width = FALSE,
                             position = "center",
-                            font_size = 20)
+                            font_size = 20) %>%
+  row_spec(7, bold = T, hline_after = T)
 ```
 
 ::: {.notes}
