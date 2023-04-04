@@ -26,7 +26,6 @@ format:
 <span style="color:grey;">... Chalcolithic</span> occurs before <span style="color:grey;">Bell Beaker ...</span>
 
 <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-strati.jpg">
-<img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-geology.png">
 
 <img src="https://raw.githubusercontent.com/zoometh/neonet/master/doc/img/SPDneonet.png">
 <img src="https://raw.githubusercontent.com/zoometh/neonet/master/doc/img/events_duration.png">
@@ -35,7 +34,7 @@ format:
 
 
 
-# Introduction {background-color="#fba726"}
+# Introduction {background-color="#88c28d"}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(plotly)
@@ -67,7 +66,7 @@ For Leibnitz, "time" groups events that follow one another, while "space" groups
 In the 90's, development of GIS in archaeology led to a "geographic turn" but **no such a thing for the temporal dimension**
 :::
 
-# Proposed framework {background-color="#fba726"}
+# Proposed framework {background-color="#88c28d"}
 
 ## Workflow
 
@@ -86,7 +85,17 @@ Asynchronous, project-based and distributed work
 
 Building a framework to facilitate the publication of papers on temporal data alongside research papers
 
-when-tree.jpg
+
+<div class="row">
+<div class="column"><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-geology.png">
+<div class="captiontext">Very unprecise</div>
+</div>
+
+<div class="column"><img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/teach/stats/images/when-tree.jpg">
+<div class="captiontext">Very precise</em></div>
+</div>
+</div>
+
 
 ::: {.notes}
 Help in publishing data papers to go FAIR
@@ -121,9 +130,10 @@ Extended Date/Time Format (EDTF) Specification <span class="midtext"> ISO 8601-2
 
 Use of CIDOC-CRM, promoting good practices
 
+
 ```{mermaid}
 flowchart LR
-    A("-7XX/-509") --P170 defines time--> B(E52 Time-Span);
+    A("-7XX/-509") --P170 defines time--> B("E52 Time-Span");
     B --P1 is identified by--> C(Pre-Roman republic);
 ```
 
@@ -142,10 +152,10 @@ EDTF is an extension of the previously seen ISO-8601 Date format. It allows an a
 * <img src="https://raw.githubusercontent.com/zoometh/thomashuet/master/img/app-r.png" style='height: 60px;vertical-align: middle;'> is a scripting language for data science, is the 1<sup>st</sup> used by archaeologists but only the 18<sup>th</sup> worldwide
 
 
-# CAA State of the art
+# CAA State of the art {background-color="#88c28d"}
 
 
-## CAA Special Interest Groups {auto-animate=true}
+## CAA Special Interest Groups
 
 <span vertical-align: center><img src='https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/logo-caa.png' style='height: 50px;vertical-align: middle;'> SIG <span class="midtext"><https://caa-international.org/special-interest-groups/></span>
 
@@ -190,7 +200,7 @@ EDTF is an extension of the previously seen ISO-8601 Date format. It allows an a
 
 :::
 
-## Ongoing projects
+## Sibling projects
 
 Historical Time Representation
 
@@ -202,4 +212,4 @@ Historical Time Representation
 
 </center>
 
-# Open talk {background-color="#fba726"}
+# Open talk {background-color="#88c28d"}
