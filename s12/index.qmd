@@ -300,9 +300,7 @@ Harris matrix
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/chrono-networks.png" width="800">
 
 
-## LOD Space-Time-Gazetteers
-
-Linked Open Data Space-Time-Gazetteers
+## Linked Open Data Space-Time-Gazetteers
 
 ::: {.panel-tabset}
 
