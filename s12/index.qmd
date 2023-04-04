@@ -254,7 +254,7 @@ We welcome papers dealing with new theoretical, methodological and research soft
 
 ## Stratigraphic modelling
 
-Harris matrix
+Harris matrix: Directed Acyclic Graphs, Partial Order
 
 <img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/harris.png" width="800">
 
@@ -265,7 +265,7 @@ Harris matrix
 
 ### Allen's temporal relations
 
-<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png" width="800"> 
+<img src="https://raw.githubusercontent.com/archaeochrono/caa23/master/s12/images/allen.png"> 
 
 ### Other
 
